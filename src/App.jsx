@@ -16,6 +16,7 @@ import SecondHome from './pages/tryouts/SecondHome';
 import LoginTry from './pages/tryouts/loginTry';
 import Home from './pages/Home';
 import ThirdHome from './pages/tryouts/ThirdHome';
+import RvmComparison from './pages/RvmComparison';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/services" element={<Services />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/rvmcompare" element={<RvmComparison />} />
 
 
 

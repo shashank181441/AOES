@@ -75,7 +75,7 @@ export default function AboutUs() {
                   <h3 className="text-xl font-semibold text-gray-900">{project.name}</h3>
                   <p className="mt-2 text-sm text-gray-500 line-clamp-3">{project.description}</p>
                   <Link
-                    to={`/projects/${project.slug}`}
+                    to={`/project/${project.slug}`}
                     className="mt-4 inline-flex items-center text-sm font-semibold text-primary transition-colors duration-300 hover:text-primary-dark"
                   >
                     Learn More

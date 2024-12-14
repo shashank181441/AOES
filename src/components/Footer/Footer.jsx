@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="absolute inset-0 bg-black/90" />
       
       <div className="relative px-6 py-12 mx-auto max-w-7xl lg:px-8">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:grid-cols-4">
           {/* Logo and Newsletter Section */}
           <div className="space-y-6">
             <img src="https://files.catbox.moe/6wp9e5.svg" alt="Alpha Omega" className="h-8" />
